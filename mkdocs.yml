@@ -1,0 +1,8 @@
+site_name: Shiny RPC
+
+theme:
+  name: readthedocs
+
+nav:
+  - ✨ About: index.md
+  - 🖋 Annotation: about.md
