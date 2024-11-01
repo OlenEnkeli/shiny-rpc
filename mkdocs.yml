@@ -1,8 +1,43 @@
 site_name: Shiny RPC
+site_url: https://shiny-rpc.dev
+site_description: Minimalistic RPC standard for your microservices
+site_author: Anton Nikolskiy
 
 theme:
-  name: readthedocs
+  name: material
+  palette:
+    primary: teal
+    accent: teal
+  features:
+    announce.dismiss
+    - navigation.footer
+    - navigation.indexes
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
+
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 nav:
   - ✨ About: index.md
-  - 🖋 Annotation: about.md
+  - 🔧 Standard:
+      - standard/index.md
+      - Connection:
+        - Connection: standard/connection/index.md
+        - Server: standard/connection/server.md
+        - Client: standard/connection/client.md
+      - Messages:
+        - Messages: standard/messages/index.md
+        - Request: standard/messages/request.md
+        - Response: standard/messages/response.md
+        - Errors: standard/messages/errors.md
+  - 🎇 Annotation: annotation.md
+  - 🪄 Implementations: implementations.md

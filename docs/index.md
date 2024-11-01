@@ -1,7 +1,11 @@
-# ✨ Quick RPC
+# ✨ Shiny RPC
 
-> Shiny minimalistic RPC standard for your microservices
+> Minimalistic RPC standard for your microservices
 
+
+[:fontawesome-brands-github: Source Code](https://github.com/OlenEnkeli/shiny-rpc-python){ .md-button }
+[:fontawesome-solid-book-open: Documentation](#){ .md-button }
+[:fontawesome-solid-wand-magic-sparkles: Implementations](#){ .md-button }
 
 ## 🌊 Key benefits
 
@@ -13,7 +17,7 @@
 
 ## 🛳 Main ideas
 
-### 🐙 What is RPC?
+### 🐙 RPC
 
 **RPC** is a acronym of **Remote Procedure Call**.
 

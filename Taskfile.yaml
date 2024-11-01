@@ -4,3 +4,5 @@ tasks:
   serve:
     cmds:
      - poetry run mkdocs serve
+  build:
+     - poetry run mkdocs build
